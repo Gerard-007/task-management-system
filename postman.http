@@ -1,0 +1,26 @@
+### GET request
+GET http://localhost:3000/api/todos
+Content-Type: application/json
+
+
+### POST request
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+  "text": "Learning Golang"
+}
+
+
+### PATCH request
+PATCH http://localhost:3000/api/todos/1
+Content-Type: application/json
+
+{
+  "text": "Learning Golang and TypeScript"
+}
+
+
+### DELETE request
+DELETE http://localhost:3000/api/todos/1
+Content-Type: application/json
